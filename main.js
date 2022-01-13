@@ -1,5 +1,5 @@
 let generateRandom = () =>{
-    const number = Math.foor(Math.random()* 20);
+    const number = Math.floor(Math.random()* 20);
     return number;
 }
 let displayMessage = arr => arr[generateRandom()];
@@ -26,3 +26,5 @@ let quotationTable = [
 'Life is trying things to see if they work. -Ray Bradbury',
 'Many of life\'s failures are people who did not realize how close they were to success when they gave up. -Thomas A. Edison',
 ]
+
+console.log(displayMessage(quotationTable));
